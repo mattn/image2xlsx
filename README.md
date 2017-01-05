@@ -9,8 +9,8 @@ Convert image file to Microsoft Excel file.
 ```
 $ image2xlsx /path/to/image.jpg
 ```
-This output `/path/to/image.xlsx`.
-` 
+
+This generate `/path/to/image.xlsx`.
 
 ## Installation
 
