@@ -43,6 +43,7 @@ func image2xlsx(name string) error {
 			r, g, b, a := nrgba.At(x, y).RGBA()
 			if a > 0 {
 				c := fmt.Sprintf("%02X%02X%02X%02X", a&0xff, r&0xff, g&0xff, b&0xff)
+				cell.GetStyle().ApplyFill = true
 				cell.GetStyle().Fill = *xlsx.NewFill("solid", c, c)
 			}
 		}
