@@ -2,7 +2,7 @@
 
 Convert image file to Microsoft Excel file.
 
-![image2xlsx](https://gyazo.compile-error.net/7244410693266b39.png)
+![image2xlsx](screenshot.png)
 
 ## Usage
 
